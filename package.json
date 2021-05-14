@@ -7,13 +7,14 @@
   "license": "MIT",
   "keywords": [
     "car",
-    "车牌号"
+    "车牌号",
+    "vue3"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windy-boy/vue-car-number.git"
+    "url": "git+https://github.com/windy-boy/car-number-vue3.git"
   },
-  "homepage": "https://github.com/windy-boy/vue-car-number#readme",
+  "homepage": "https://github.com/windy-boy/car-number-vue3#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
