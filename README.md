@@ -1,7 +1,7 @@
-# vue-car-number
+# car-number-vue3
 
 ### 介绍
-* vue-car-number3是一款基于vue3的车牌号输入控件，支持自定义输入框。
+* car-number-vue3是一款基于vue3的车牌号输入控件，支持自定义输入框。
 
 ### 示例
 [gitHub](https://windy-boy.github.io/vue-car-number-demo)
@@ -12,12 +12,14 @@
 * 下载
 
 ```
-npm install vue-car-number3
+npm install car-number-vue3
 ```
 * 在main.js中加入
 
 ```
-import CarNumber from 'vue-car-number3'
+import CarNumber from 'car-number-vue3'
+import 'car-number-vue3/lib/carNumber.css'
+
 createApp(App).use(CarNumber).mount('#app')
 ```
 * 在需要的页面中使用
@@ -65,6 +67,14 @@ default|value:Array|自定义输入框
 [input-number-plate](https://github.com/wokeT/input-number-plate)
 
 ## Change Log
+
+* 1.0.2
+
+fix bug
+
+* 1.0.1
+
+fix bug
 
 * 1.0.0
 

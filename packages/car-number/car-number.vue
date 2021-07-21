@@ -259,7 +259,8 @@ export default {
         if (this.inputValue.length === 0) this.keybordType = 'ABC'
         if (this.inputValue.length > 0 && this.inputValue.length < len) this.keybordType = '返回'
       },
-      immediate: true
+      immediate: true,
+      deep: true
     },
     visible (val) {
       if (val) {
